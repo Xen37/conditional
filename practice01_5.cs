@@ -4,7 +4,7 @@ class Program{
 	static void Main(){
 		char choice;
 		do{
-		Console.Write("enter your choice ");
+		Console.Write("enter your choice A for area, P for perimeter, E for exit:  ");
 		choice = Convert.ToChar(Console.ReadLine()?? "");
 		int raduis = 0;
 		
@@ -13,7 +13,7 @@ class Program{
 			case 'A':
 				Console.Write("enter your raduis ");
 				raduis = Convert.ToInt32(Console.ReadLine());
-				double Area = 3.14 * (raduis * radius);
+				double Area = 3.14 * (raduis * raduis);
 				Console.WriteLine($"the area is {Area}");
 				break;
 			case 'P':
