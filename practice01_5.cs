@@ -13,13 +13,13 @@ class Program{
 			case 'A':
 				Console.Write("enter your raduis ");
 				raduis = Convert.ToInt32(Console.ReadLine());
-				double Area = 3.14 * (raduis * 2);
+				double Area = 3.14 * (raduis * radius);
 				Console.WriteLine($"the area is {Area}");
 				break;
 			case 'P':
 				Console.Write("enter your raduis ");
 				raduis = Convert.ToInt32(Console.ReadLine());
-				double perimeter = 3 * (3.14 * raduis);
+				double perimeter = 2 * 3.14 * raduis;
 				Console.WriteLine($"the perimeter is {perimeter}");
 				break;
 			case 'E':
